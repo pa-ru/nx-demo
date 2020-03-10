@@ -1,0 +1,31 @@
+{
+  "npmScope": "acs",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "duo-process": {
+      "tags": []
+    },
+    "duo-process-e2e": {
+      "tags": [],
+      "implicitDependencies": ["duo-process"]
+    },
+    "ui-document": {
+      "tags": []
+    },
+    "ui-search": {
+      "tags": []
+    },
+    "shared-data-access": {
+      "tags": []
+    }
+  }
+}
